@@ -3,7 +3,7 @@ const FILES_TO_CACHE = [
   "/index.html",
   "/index.js",
   "/assets/css/style.css",
-  "/assets/js/loadbudget.js",
+  "/assets/js/db.js",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png"
 ];
