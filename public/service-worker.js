@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
   "/index.js",
   "/assets/css/style.css",
   "/assets/js/db.js",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "/assets/icons/icon-192x192.png",
+  "/assets/icons/icon-512x512.png"
 ];
 
 const DATA_CACHE_NAME = "data-cache-v1";
