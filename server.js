@@ -17,7 +17,9 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb://localhost/budgetDB", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true,
+  useCreateIndex: true
 });
 
 // routes
@@ -26,3 +28,5 @@ app.use(require("./routes/api.js"));
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
+
+// mongodb + srv://root:Zizo1234@cluster0.9wmkj.mongodb.net/budgetDB?retryWrites=true&w=majority
