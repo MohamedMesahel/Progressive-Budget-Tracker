@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-
+// TODO: Fix the variable port for Heruko
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-
+// TODO: Make sure to connect MongoDB to Heroku instead
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budgetDB",
 { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true, useCreateIndex: true });
 
