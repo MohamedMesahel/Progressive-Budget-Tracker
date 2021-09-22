@@ -26,4 +26,4 @@ app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
 
-// mongodb + srv://root:Zizo1234@cluster0.9wmkj.mongodb.net/budgetDB?retryWrites=true&w=majority
+// mongodb+srv://Root:Zizo1234@cluster0.tjgsv.mongodb.net/budgetDB?retryWrites=true&w=majority
