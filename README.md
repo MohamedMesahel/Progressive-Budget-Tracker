@@ -85,6 +85,7 @@ When brought back online:
 ### Built With
 
 * Node.js, HTML, Express, Mongoose and Mongodb.
+* For working offline: used manafiest and serveice-worker
 * Deployed through Heroku.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
